@@ -1,28 +1,29 @@
 {
-  "name": "ecommerce-back-end",
+  "name": "module-13-challenge-orm",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nitishd22/ecommerce-back-end.git"
+    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
   },
-  "author": "Nitish Doss",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nitishd22/ecommerce-back-end/issues"
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   },
-  "homepage": "https://github.com/nitishd22/ecommerce-back-end#readme",
   "dependencies": {
-    "dotenv": "^16.0.1",
+    "dotenv": "^8.6.0",
+    "express": "^4.18.1",
     "mysql2": "^2.3.3",
-    "nodemon": "^2.0.19",
-    "sequelize": "^6.21.2"
+    "node": "^18.5.0",
+    "sequelize": "^5.22.5"
   }
 }
